@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "69c4be7ed243ac3c704f4564"
+  },
+  "PNR_NO": 3638,
+  "NAME": "ANJU",
+  "AGE": 20,
+  "GENDER": "MALE",
+  "COACH": "1ST_AC",
+  "SEAT_NO": 1
+},
+{
+  "_id": {
+    "$oid": "69c4bf03d243ac3c704f4565"
+  },
+  "PNR_NO": 2638,
+  "NAME": "VISHWAS",
+  "AGE": 20,
+  "GENDER": "MALE",
+  "COACH": "2ST_AC",
+  "SEAT_NO": 21
+},
+{
+  "_id": {
+    "$oid": "69c4e9105feacc709b42fe0c"
+  },
+  "PNR_NO": 3638,
+  "NAME": "ANJU",
+  "AGE": 20,
+  "GENDER": "MALE",
+  "COACH": "1ST_AC",
+  "SEAT_NO": 1
+},
+{
+  "_id": {
+    "$oid": "69c4e9345feacc709b42fe0d"
+  },
+  "PNR_NO": 2638,
+  "NAME": "VISHWAS",
+  "AGE": 20,
+  "GENDER": "MALE",
+  "COACH": "2ST_AC",
+  "SEAT_NO": 21
+},
+{
+  "_id": {
+    "$oid": "69c4e9345feacc709b42fe0e"
+  },
+  "PNR_NO": 1638,
+  "NAME": "MALLU",
+  "AGE": 20,
+  "GENDER": "MALE",
+  "COACH": "3RD_AC",
+  "SEAT_NO": 1
+},
+{
+  "_id": {
+    "$oid": "69c4e9345feacc709b42fe0f"
+  },
+  "PNR_NO": 4638,
+  "NAME": "NANDU",
+  "AGE": 20,
+  "GENDER": "MALE",
+  "COACH": "1ST_AC",
+  "SEAT_NO": 45
+}]

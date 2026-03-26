@@ -1,0 +1,23 @@
+use admin
+switched to db admin
+use RAILWAY_DEPT
+switched to db RAILWAY_DEPT
+db.createCollection("Tickts_issue")
+db.RAILWAY_DEPT.insertOne({PNR_NO:3638,NAME:"ANJU",AGE:20,GENDER:"MALE",COACH:"1ST_AC",SEAT_NO:1})
+db.RAILWAY_DEPT.insertMany([{PNR_NO:2638,NAME:"VISHWAS",AGE:20,GENDER:"MALE",COACH:"2ST_AC",SEAT_NO:21},{PNR_NO:1638,NAME:"MALLU",AGE:20,GENDER:"MALE",COACH:"3RD_AC",SEAT_NO:1},{PNR_NO:4638,NAME:"NANDU",AGE:20,GENDER:"MALE",COACH:"1ST_AC",SEAT_NO:45}])
+db.RAILWAY_DEPT.findOne({NAME:"ANJU"})
+db.RAILWAY_DEPT.find()
+db.RAILWAY_DEPT.find({age:{$gt:20}})
+db.RAILWAY_DEPT.find({age:{$set:20}})
+db.RAILWAY_DEPT.find({age:20})
+db.RAILWAY_DEPT.updateOne({NAME:"VISWAS"},{$set:{AGE:20}})
+db.RAILWAY_DEPT.updateOne({NAME:"VISHWAS"},{$set:{AGE:20}})
+db.RAILWAY_DEPT.deleteOne({NAME:"NANDU"})
+db.RAILWAY_DEPT.deleteMany({NAME:"MALLU"},{NAME:"ANJU"})
+
+show collections
+db.ticket_issue.drop()
+show collections
+RAILWAY_DEPT
+
+
